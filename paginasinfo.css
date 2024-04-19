@@ -19,15 +19,16 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background-color: black;
+    background: white;
+    
 }
 
 
 .btn{
     display: inline-block;
     font-size: 1.7rem;
-    color: black;
-    background: none;
+    color: white;
+    background: blue;
     margin-top:1rem ;
     padding: .8rem 3rem;
     border: 1px solid rgba(0, 0, 255, 0.062);
@@ -225,242 +226,71 @@ section{
 }
 
 
-
-/*TOPO PAGINAS*/
-.topo-paginas{
-    background: yellow;
-    background-size: cover;
-    background-position: center;
+/*pagina principal inicio*/
+.informacoes{
+    background: black;
+    padding:10rem ;
+    color: white;
+    
+}
+.informacoes .caixa-1 .caixa-2 h1{
     text-align: center;
-    padding-top: 12rem;
-    padding-bottom: 8rem;
-
+   
 }
-.topo-paginas h1{
-    color: black;
-    font-size: 4rem;
-}
-.topo-paginas p{
-    padding-top: 1rem;
-    font-size: 2rem;
-    color: blue;
-}
-.topo-paginas p a{
-    color: rgba(0, 0, 255, 0.473);
-    padding-right: .5rem;
-}
-/*SLIDE*/
-
-
-.msflix-destaque{
-    padding: 0;
-}
-.msflix-destaque .slide{
+.informacoes .caixa-1 .caixa-2 .img-text{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 70vh;
-    background-size: cover !important;
-    background-position: center !important;
-}
-.msflix-destaque .slide .content{
-    display: none;
-    width: 60rem;
-    text-align: center;
-
-}
-.msflix-destaque .slide .content h3{
-   font-size: 6rem;
-   line-height: 1.3;
-   color: rgb(110, 107, 107); 
-   padding: 2rem 0;
-   animation: sliderMaykon 1s ease forwards;
-}
-.msflix-destaque .slide .content span{
-color: rgb(102, 89, 16);
-
-}
-.msflix-destaque .slide .content .btn{
-    background: white;
-    color: black;
-}
-.msflix-destaque .slide .content .btn:hover{
-    background: black ;
-    color: white;
-    border: none;
-    font-weight: 600;
-    animation: sliderReveal 1s ease forwards;
-    border: 1px solid white;
-}
-.msflix-destaque .swiper-slide-active .content{
-    display: inline-block;
-} 
-.msflix-destaque .swiper-slide-active{
-    animation: msflixScale 4s linear forwards;
-}
-
-@keyframes sliderMaykon{
-    0%{
-        transform: translateY(30px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
-
-@keyframes msflixScale{
-    0%{
-        transform: scale(1);
-        
-    }
-    100%{
-        transform: scale(1.15);
-    }
-}
-.swiper-button-prev,
-.swiper-button-next{
-    height: 4.5rem;
-    width: 4.5rem;
-    line-height: 4.5rem;
-    margin-left: 1.5rem;
-    color: green;
-    border: .1px solid white;
-    transform: translateY(-50%) rotate(45deg);
-}
-
-.swiper-button-prev::after,
-.swiper-button-next::after{
-font-size: 1.5rem;
-transform: rotate(-45deg);
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover{
-color: white;
-background-color: black;
-}
-
-/*EMPRESA*/
-.empresa{
+    padding-top: 3rem;
    
 }
-.empresa .row{
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 5rem;
-    padding-left: .9rem;
-    gap: 4rem;
-    
-    align-items: center;
+.informacoes .caixa-1 .caixa-2 .img-text img{
+    width: 300px;
 }
-.empresa .row .empresa-img{
-    flex: 1 1 32rem;
-}
-.empresa .row .empresa-img img{
-    width: 100%;
-    box-shadow: 0 .5rem rgba(0, 0, 0, 0.1);
 
+.informacoes .caixa-1 .caixa-2 .sobe-camp{
+    padding:3.5rem ;
 }
-.empresa .row .content{
-    flex: 1 1 50rem;
+.informacoes .caixa-1 .caixa-2 .sobe-camp p{
+    font-size: 1.7rem;
 }
-.empresa .row .content h3{
+
+.informacoes .caixa-1 .caixa-2 .sobe-camp .premio{
+    padding-top: 3rem;
     font-size: 3.5rem;
-    color: white;
+    text-align: center;
 }
-.empresa .row .content h3 span{
-    color: rgb(1, 180, 1);
+
+.informacoes .caixa-1 .caixa-2 .sobe-camp .premio span{
+    color: greenyellow;
 }
-.empresa .row .content p{
-    
-    font-size: 1.6rem;
-    text-transform: none;
-    color: white;
-    padding: 2rem 0;
-    line-height: 2;
+.informacoes .caixa-1 .caixa-2 .sobe-camp  h5{
+    font-size:2rem ;
+    text-align: center;
+    padding-top: .5rem;
 }
-.empresa .btn{
-    background: green;
-    color: white;
-    border: 1px solid #fff;
-    margin-bottom: 2rem;
+
+
+
+
+.informacoes .caixa-1 .caixa-2 .btn{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-} 
-.empresa .btn:hover{
-    background-color: white;
-    color: black;
-    border: 1px solid black;
-    font-weight: 600;
-}
-/*blog*/
-
-.blog{
-    
-}
-.blog .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
-    gap: 4rem;
-   background-color: white;
-   
-   
-
-
-}
-.blog .box-container .box{
-    text-align: center;
-    padding: 1.5rem;
-    border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
-
-}
-.blog .box-container .box img{
-    width: 100%;
-    height: 25rem;
-    border-radius: .5rem;
-    object-fit: cover;
-    transition:  1s linear;
-}
-.blog .box-container .box img:hover{
-    transform: scale(1.1);
 }
 
 
 
-.blog .box-container .box .icons{
-    display: inline-block;
-    top: -2rem;
-    background: white;
-    padding: 1rem;
-    border-radius: .5rem;
-    position: relative;
-}
-.blog .box-container .box .icons a{
-    color: black;
-    font-size: 1.4rem;
-    margin: 0 1rem;
-}
-.blog .box-container .box .icons a:hover{
-    color: gold;
-}
-.blog .box-container .box .icons a i{
-    color: black;
-    padding-right: .5rem;
-}
-.blog .box-container .box h3{
-    font-size: 2rem;
-    color: black;
-}
-.blog .box-container .box p{
-    color: rgb(197, 178, 178);
-    font-size: 1.4rem;
-    padding: 1rem 0;
-    line-height: 2;
-}
+
+
+
+
+
+
+
+/*pagina principal fim*/
+
 
 /*RODAPE*/
 
@@ -638,3 +468,4 @@ background-color: black;
         border-bottom-style:dotted ;
     }
 }
+
