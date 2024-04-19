@@ -26,20 +26,20 @@ html{
 .btn{
     display: inline-block;
     font-size: 1.7rem;
-    color: black;
-    background: none;
+    color: white;
+    background: green;
     margin-top:1rem ;
     padding: .8rem 3rem;
-    border: 1px solid rgba(0, 0, 255, 0.062);
+    border: 1px solid white;
     border-radius: .5rem;
     cursor: pointer;
     
 }
 .btn:hover{
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     font-weight: 600;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 section{
     padding: 3rem 7%;

@@ -28,7 +28,7 @@ html{
     display: inline-block;
     font-size: 1.7rem;
     color: white;
-    background: blue;
+    background: green;
     margin-top:1rem ;
     padding: .8rem 3rem;
     border: 1px solid rgba(0, 0, 255, 0.062);
@@ -37,10 +37,10 @@ html{
     
 }
 .btn:hover{
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     font-weight: 600;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 section{
     padding: 3rem 7%;
@@ -246,13 +246,15 @@ section{
 }
 .informacoes .caixa-1 .caixa-2 .img-text img{
     width: 300px;
+    
 }
 
 .informacoes .caixa-1 .caixa-2 .sobe-camp{
-    padding:3.5rem ;
+    padding-top:3.5rem ;
 }
 .informacoes .caixa-1 .caixa-2 .sobe-camp p{
     font-size: 1.7rem;
+    text-align: start;
 }
 
 .informacoes .caixa-1 .caixa-2 .sobe-camp .premio{
@@ -268,6 +270,7 @@ section{
     font-size:2rem ;
     text-align: center;
     padding-top: .5rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -278,6 +281,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 
