@@ -530,7 +530,7 @@ background-color: black;
 
 }
 .rodape .box-container .box .imagens{
-    width: 100%;
+ 
 }
 
 .rodape .box-container .box .imagens .img-patro{
@@ -546,6 +546,10 @@ background-color: black;
     transform: scale(1.5);
 
 }
+.direitos-caixa{
+    
+    
+}
 .direitos{
     text-align: center;
     color: black;
@@ -554,6 +558,8 @@ background-color: black;
     padding-top: 3rem;
     text-transform: capitalize;
     border-top: .1rem solid black;
+    width: 100%;
+   
 
 }
 .direitos span{
