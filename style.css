@@ -367,6 +367,70 @@ background-color: black;
     color: white;
     padding-right: .5rem;
 }
+/*patrocinio*/
+.titulo-patro h1{
+    color: green;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3.5rem;
+    border-bottom: 1px solid white;
+}
+
+.patrocinio{
+    display: grid;
+grid-template-columns: repeat(auto-fit,Minmax(30rem, 1fr));
+padding-top: 3rem;
+padding-bottom: 3rem;
+
+
+
+
+
+}
+.patrocinio .patrocinio-img{
+    padding-top: 1.5rem;
+    width: 250px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
+
+   
+
+  
+    
+    
+}
+
+.patrocinio .patrocinio-img img{
+    width: 100%;
+    
+    border-radius: 50%;
+    object-fit: cover;
+    transition:  1s ;
+    border: 3px solid white;
+    
+ 
+ 
+ 
+
+}
+.patrocinio .patrocinio-img img:hover{
+    transform: scale(1.2);
+}
+.patrocinio .patrocinio-img .name-patro{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 1.8rem;
+   
+}
+
+
+
+
+
+/*patrocinio*/
 
 /*EMPRESA*/
 .empresa{
@@ -744,7 +808,7 @@ text-transform: none;
         border-bottom: 1px solid white;
         border-bottom-style:dotted ;
     }
-    
+   
 }
 
 @media(max-width:450px){
