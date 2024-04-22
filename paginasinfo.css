@@ -244,6 +244,17 @@ section{
     padding-top: 3rem;
    
 }
+.informacoes .caixa-1 .caixa-2 span{
+    text-align: center;
+    font-weight: 900;
+    color: greenyellow;
+}
+.informacoes .caixa-1 .caixa-2 .sobe-camp .regras{
+    text-align: center;
+    color: green;
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
 .informacoes .caixa-1 .caixa-2 .img-text img{
     width: 300px;
     
@@ -283,6 +294,7 @@ section{
     justify-content: center;
     
 }
+
 
 
 
