@@ -391,7 +391,7 @@ border-bottom: 1px solid white;
 
 }
 .patrocinio .patrocinio-img{
-    width: 70%;
+    width: 245px;
     margin: auto;
    
     
@@ -637,6 +637,7 @@ border-bottom: 1px solid white;
 .rodape .box-container .box .imagens .img-patro:hover{
 
     transform: scale(1.5);
+    border: 1px solid black;
 
 }
 
