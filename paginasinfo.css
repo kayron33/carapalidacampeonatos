@@ -244,6 +244,11 @@ section{
     padding-top: 3rem;
    
 }
+.informacoes .caixa-1 .caixa-2 h1{
+    font-size: 3.5rem;
+
+
+}
 .informacoes .caixa-1 .caixa-2 span{
     text-align: center;
     font-weight: 900;
@@ -266,6 +271,9 @@ section{
 .informacoes .caixa-1 .caixa-2 .sobe-camp p{
     font-size: 1.7rem;
     text-align: start;
+}
+.informacoes .caixa-1 .caixa-2 .sobe-camp p .data{
+    font-size: 3rem;
 }
 
 .informacoes .caixa-1 .caixa-2 .sobe-camp .premio{
